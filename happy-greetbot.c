@@ -9,4 +9,7 @@ int main(void)
     string age = get_string ("Forgive me for asking but, what age are you?\n");
     printf("You do not look old enough to be %s!\n", age);
     printf("Whatever you're doing, its working. You look great!\n");
+    string location = get_string ("Where do you live %s?\n", name);
+    printf("Wow, %s",location);
+    printf(" is such a great spot! Thank you for answering my questions today. Be well, meat bag!\n");
 }
