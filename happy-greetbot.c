@@ -12,4 +12,8 @@ int main(void)
     string location = get_string ("Where do you live %s?\n", name);
     printf("Wow, %s",location);
     printf(" is such a great spot! Thank you for answering my questions today. Be well, meat bag!\n");
+    printf("Here is a recap of the information you have provided me with:\n");
+    printf("You are %s,", name);
+    printf(" you are %s,", age);
+    printf(" and, you live in %s.\n", location);
 }
